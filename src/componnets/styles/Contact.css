@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #1a0b3d;
+    color: white;
+    border: 1px solid #e0dceb ;
+}
+.unvisible{
+    color: #0b032d ;
+}
+.container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px;
+    background-color: #1a0b3d;
+    border-radius: 50px;
+   
+    box-shadow: #e0dceb;
+    
+}
+.left-section {
+    width: 45%;
+    padding-left: 5px;
+}
+.right-section {
+    width: 45%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+    padding-right: 20px;
+}
+
+.subtitle {
+    text-shadow: #e0dceb;
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 10px 0;
+   
+   padding-left: 20px;
+   padding-right: 20px;
+   justify-content: center;
+}
+.contact-info {
+    margin-top: 30px;
+}
+.contact-info p {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.contact-info i {
+    margin-right: 10px;
+    color: #FFD700;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.form-group input {
+    height: 40px;
+}
+.form-group textarea {
+    height: 100px;
+}
+.submit-btn {
+    background-color: #FFD700;
+    color: #0A1F44;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+p{
+    padding-right: 20px;
+}
